@@ -1,0 +1,40 @@
+.table {
+    display: inline-block;
+    background: whitesmoke;
+    padding: 10px 20px;
+    margin: 0 20px 40px;
+    border: 1px solid teal;
+}
+
+@keyframes selectShadow {
+    from {
+        box-shadow: none;
+    }
+    to {
+        box-shadow: 0 5px 5px 2px rgb(148, 148, 148);
+    }
+}
+
+.table:hover {
+    animation-name: selectShadow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    transform: translate(0, -10px);
+}
+
+.tr {
+    display: grid;
+    padding: 20px;
+}
+
+.img {
+    height: 60vh;
+    width: auto;
+    border: 1px solid rgb(153, 152, 152);
+}
+
+.name {
+    letter-spacing: .5px;
+    font: 600 1.2rem Arial, sans-serif;
+    padding: 20px 0;
+}
