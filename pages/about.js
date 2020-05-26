@@ -1,13 +1,10 @@
 import Header from "../components/Header";
-import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-
-export default function Index() {
+export default function About() {
   return (
-    <div>
+    <>
       <Header />
-      <Menu />
       <Footer />
-    </div>
+    </>
   );
 }

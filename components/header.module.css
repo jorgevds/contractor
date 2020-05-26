@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    background: teal;
+    padding: 5px;
+    top: 0 !important;
+    left: 0 !important;
+    margin-top: 0 !important;
+    width: 100%;
+    outline: 0;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.appName {
+    font: 500 2rem "Chelsea Market";
+}

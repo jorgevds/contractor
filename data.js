@@ -1,7 +1,7 @@
 export const profiles = [
   {
     id: "3",
-    img: "/bouw1.jpg",
+    img: "/images/bouw1.jpg",
     name: "Mariah Carey",
     price: "172 euro per dag",
     worktime: "77 weken",
@@ -9,7 +9,7 @@ export const profiles = [
   },
   {
     id: "4",
-    img: "/bouw2.jpg",
+    img: "/images/bouw2.jpg",
     name: "Giovanni (van Pokémon)",
     price: "167 euro per dag",
     worktime: "75 weken",
@@ -17,7 +17,7 @@ export const profiles = [
   },
   {
     id: "5",
-    img: "/bouw3.jpg",
+    img: "/images/bouw3.jpg",
     name: "Fabio",
     price: "196 euro per dag",
     worktime: "32 weken",
@@ -26,7 +26,7 @@ export const profiles = [
   ,
   {
     id: "6",
-    img: "/elek1.jpg",
+    img: "/images/elek1.jpg",
     name: "Delilah",
     price: "172 euro per dag",
     worktime: "37 weken",
@@ -34,7 +34,7 @@ export const profiles = [
   },
   {
     id: "7",
-    img: "/elek2.jpg",
+    img: "/images/elek2.jpg",
     name: "Design Team",
     price: "167 euro per dag",
     worktime: "75 weken",
@@ -42,7 +42,7 @@ export const profiles = [
   },
   {
     id: "8",
-    img: "/elek3.jpg",
+    img: "/images/elek3.jpg",
     name: "Palpatine Electric",
     price: "500 euro per dag",
     worktime: "∞",
@@ -50,7 +50,7 @@ export const profiles = [
   },
   {
     id: "9",
-    img: "/schilder1.jpg",
+    img: "/images/schilder1.jpg",
     name: "Amidala",
     price: "50 euro per dag",
     worktime: "40 weken",
@@ -58,7 +58,7 @@ export const profiles = [
   },
   {
     id: "10",
-    img: "/schilder2.jpg",
+    img: "/images/schilder2.jpg",
     name: "C-3PaintO",
     price: "143 euro per dag",
     worktime: "75 weken",
@@ -66,7 +66,7 @@ export const profiles = [
   },
   {
     id: "11",
-    img: "/schilder3.jpg",
+    img: "/images/schilder3.jpg",
     name: "Maria",
     price: "250 euro per dag",
     worktime: "100 weken",
@@ -74,7 +74,7 @@ export const profiles = [
   },
   {
     id: "1",
-    img: "/verhuis3.jpg",
+    img: "/images/verhuis3.jpg",
     name: "Rey Skywalker",
     price: "122 euro per dag",
     worktime: "60 weken",
@@ -82,7 +82,7 @@ export const profiles = [
   },
   {
     id: "2",
-    img: "/verhuis1.jpg",
+    img: "/images/verhuis1.jpg",
     name: "Han Solo",
     price: "200 euro per dag",
     worktime: "80 weken",
@@ -90,7 +90,7 @@ export const profiles = [
   },
   {
     id: "3",
-    img: "/verhuis2.jpg",
+    img: "/images/verhuis2.jpg",
     name: "Galactic Empire",
     price: "499 euro per dag",
     worktime: "320 weken",
@@ -98,7 +98,7 @@ export const profiles = [
   },
   {
     id: "12",
-    img: "/tuin1.jpg",
+    img: "/images/tuin1.jpg",
     name: "Marie Curie",
     price: "172 euro per dag",
     worktime: "44 weken",
@@ -106,7 +106,7 @@ export const profiles = [
   },
   {
     id: "13",
-    img: "/tuin2.jpg",
+    img: "/images/tuin2.jpg",
     name: "R2-D2",
     price: "200 euro per dag",
     worktime: "65 weken",
@@ -114,7 +114,7 @@ export const profiles = [
   },
   {
     id: "14",
-    img: "/tuin3.jpg",
+    img: "/images/tuin3.jpg",
     name: "Gaia",
     price: "96 euro per dag",
     worktime: "32 weken",

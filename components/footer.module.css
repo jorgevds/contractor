@@ -1,0 +1,29 @@
+.navbar {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    margin: 0!;
+    display: flex;
+    background: teal;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.appName {
+    font: 500 2rem Arial, sans-serif;
+}
+
+.legalDisclaimer {
+    font: 200 .5rem Times, serif
+}
