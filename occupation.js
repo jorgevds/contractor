@@ -1,4 +1,4 @@
-export const Occupations = [
+export const occupations = [
   { key: 1, value: "Bouwvakker" },
   { key: 2, value: "Elektricien" },
   { key: 3, value: "Verhuizer" },

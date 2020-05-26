@@ -4,19 +4,6 @@
     text-align: center;
 }
 
-.selectBar {
-    margin: auto;
-    border-radius: 0;
-    padding: 80px;
-    width: 80%;
-    font: 200 2rem Helvetica, sans-serif;
-    display: block;
-    background: white;
-    border: none;
-    outline: 2px solid teal;
-    height: 60px;
-}
-
 .selectOption {
     margin-top: 2%;
 }
@@ -38,11 +25,16 @@
     animation-fill-mode: forwards;
 }
 
-.validationError {
+.selectBar {
     margin: auto;
-    letter-spacing: 2px;
-    font: 500 1.5rem Helvetica, sans-serif;
-    padding: 40px 0;
-    color: tomato;
-    font-style: italic;
+    border-radius: 0;
+    padding: 80px;
+    width: 80%;
+    transition: .5s;
+    font: 200 2rem Helvetica, sans-serif;
+    display: block;
+    background: white;
+    border: none;
+    outline: 2px solid teal;
+    height: 60px;
 }

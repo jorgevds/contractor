@@ -4,6 +4,7 @@
     padding: 10px 20px;
     margin: 0 20px 40px;
     border: 1px solid teal;
+    transition: .3s;
 }
 
 @keyframes selectShadow {
