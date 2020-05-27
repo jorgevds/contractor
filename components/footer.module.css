@@ -1,27 +1,11 @@
-.navbar {
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
-    margin: 0!;
-    display: flex;
-    background: teal;
+.appName a {
+    color: black !important;
+    font: 500 1.5rem Arial, sans-serif;
+    font-style: italic;
 }
 
-.navbar ul {
-    list-style: none;
-}
-
-.navbar li {
-    display: inline-block;
-    padding: 20px;
-}
-
-.navbar li a {
+.appName a:hover {
     text-decoration: none;
-}
-
-.appName {
-    font: 500 2rem Arial, sans-serif;
 }
 
 .legalDisclaimer {

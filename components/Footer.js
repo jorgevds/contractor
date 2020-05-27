@@ -3,16 +3,20 @@ import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <nav className={styles.navbar}>
+    <nav>
       <ul>
-        <li className={styles.appName}>Contractor</li>
+        <li className={styles.appName}>
+          <Link href="/index">
+            <a>Contractor</a>
+          </Link>
+        </li>
         <li>
-          <Link href="../pages/about.js">
+          <Link href="/about">
             <a>About</a>
           </Link>
         </li>
         <li>
-          <Link href="../pages/workings.js">
+          <Link href="/workings">
             <a>How it works</a>
           </Link>
         </li>

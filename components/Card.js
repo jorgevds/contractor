@@ -9,18 +9,15 @@ const Card = ({ selectedOccupation }) => {
   if (!filteredProfiles.length) return null;
 
   return filteredProfiles.map((profile) => (
-    <table key={profile.id} className={styles.table}>
-      <tbody>
-        <tr className={styles.tr}>
-          <td>
-            <img src={profile.img} className={styles.img} />
-          </td>
-          <td className={styles.name}>{profile.name}</td>
-          <td>{profile.price}</td>
-          <td>{profile.worktime}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div key={profile.id} className={styles.layout}>
+      <div className={styles.grid}>
+        <img src={profile.img} className={styles.img} />
+
+        <div className={styles.name}>{profile.name}</div>
+        <div>{profile.price}</div>
+        <div>{profile.worktime}</div>
+      </div>
+    </div>
   ));
 };
 

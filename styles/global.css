@@ -19,3 +19,27 @@ a {
 li a:hover {
     text-decoration: underline;
 }
+
+/* shared styling for navbar elements in header and footer components */
+
+nav {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    margin: 0!;
+    display: flex;
+    background: teal;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+}

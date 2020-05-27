@@ -5,10 +5,6 @@
     text-align: center;
 }
 
-.selectOption {
-    margin-top: 2%;
-}
-
 @keyframes selectShadow {
     from {
         box-shadow: none;
@@ -21,9 +17,7 @@
 }
 
 .selectBar:hover {
-    animation-name: selectShadow;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+    animation: selectShadow 0.5s ease-in-out forwards;
 }
 
 .selectBar {
@@ -31,7 +25,6 @@
     border-radius: 0;
     padding: 80px;
     width: 80%;
-    transition: .5s;
     font: 200 2rem Helvetica, sans-serif;
     display: block;
     background: white;
