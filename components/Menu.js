@@ -32,7 +32,7 @@ export default class Menu extends React.Component {
             })
           }
         >
-          <option disabled selected value="">
+          <option disabled defaultValue value="">
             (Kies een beroep)
           </option>
           {occupations.map((occupation) => (

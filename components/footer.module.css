@@ -1,5 +1,10 @@
+.navbar {
+    border-top: 1px solid #2d79ab;
+    background-color: rgba(48, 47, 47, 0.747);
+}
+
 .appName a {
-    color: black !important;
+    color: silver !important;
     font: 500 1.5rem Arial, sans-serif;
     font-style: italic;
 }
@@ -9,5 +14,7 @@
 }
 
 .legalDisclaimer {
-    font: 200 .5rem Times, serif
+    color: silver;
+    font: 200 .8rem Times, serif;
+    padding-bottom: 0;
 }

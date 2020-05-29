@@ -4,7 +4,12 @@ html, body {
     padding: 0;
     margin: 0;
     font-size: 20px;
-    font-family: "Roboto"
+    font-family: "Roboto";
+    background-image: url("/images/backdrop.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 * {
@@ -12,12 +17,8 @@ html, body {
 }
 
 a {
-    color: #033670;
+    color: whitesmoke;
     text-decoration: none;
-}
-
-li a:hover {
-    text-decoration: underline;
 }
 
 /* shared styling for navbar elements in header and footer components */
@@ -28,7 +29,6 @@ nav {
     left: 0;
     margin: 0!;
     display: flex;
-    background: teal;
 }
 
 nav ul {

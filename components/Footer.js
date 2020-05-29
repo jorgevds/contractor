@@ -3,26 +3,30 @@ import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <ul>
-        <li className={styles.appName}>
-          <Link href="/index">
-            <a>Contractor</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/workings">
-            <a>How it works</a>
-          </Link>
-        </li>
-        <li className={styles.legalDisclaimer}>
-          All rights reserved, famalamily
-        </li>
+        <div>
+          <li className={styles.appName}>
+            <Link href="/index">
+              <a>Contractor</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/workings">
+              <a>How it works</a>
+            </Link>
+          </li>
+        </div>
+        <div>
+          <li className={styles.legalDisclaimer}>
+            Copyright © 2020. All rights reserved.
+          </li>
+        </div>
       </ul>
     </nav>
   );

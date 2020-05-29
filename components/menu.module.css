@@ -8,11 +8,10 @@
 @keyframes selectShadow {
     from {
         box-shadow: none;
-        width: 80%;
+        width: 60%;
     }
     to {
-        box-shadow: 0 5px 5px 2px rgb(148, 148, 148);
-        width: 81%;
+        width: 61%;
     }
 }
 
@@ -23,12 +22,12 @@
 .selectBar {
     margin: auto;
     border-radius: 0;
-    padding: 80px;
-    width: 80%;
-    font: 200 2rem Helvetica, sans-serif;
+    padding: 0;
+    width: 60%;
+    font: 300 1.5rem Helvetica, sans-serif;
     display: block;
-    background: white;
+    background: whitesmoke;
     border: none;
-    outline: 2px solid teal;
-    height: 60px;
+    outline: 2px solid #2d79ab;
+    height: 45px;
 }
