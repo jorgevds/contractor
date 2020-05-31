@@ -2,23 +2,36 @@
     display: inline-block;
     background: whitesmoke;
     padding: 10px 20px;
-    margin: 0 20px 40px;
+    margin: 0 30px 40px;
     border: 2px solid #2d79ab;
     transition: .3s;
 }
 
+@media screen and (max-width: 320px) {
+    .layout {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        margin: 0 10px 40px;
+    }
+}
+
 .layout:hover {
-    transform: translate(0, -10px);
+    transform: translate(0, -3vh);
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 .img {
-    height: 60vh;
+    margin: auto;
+    height: 40vh;
     width: auto;
     border: 1px solid rgb(153, 152, 152);
 }

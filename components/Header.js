@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 
 const Header = () => {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <ul>
         <li className={styles.appName}>
           <Link href="/index">
@@ -17,7 +17,7 @@ const Header = () => {
         </li>
         <li>
           <Link href="/workings">
-            <a>How it works</a>
+            <a>Hoe werkt het</a>
           </Link>
         </li>
       </ul>

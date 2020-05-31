@@ -10,7 +10,7 @@ export const profiles = [
   {
     id: "4",
     img: "/images/bouw2.jpg",
-    name: "Giovanni (van Pokémon)",
+    name: "Giovanni",
     price: "167 euro per dag",
     worktime: "75 weken",
     occupation: "Bouwvakker",

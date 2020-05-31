@@ -1,6 +1,13 @@
 .navbar {
     border-top: 1px solid #2d79ab;
     background-color: rgba(48, 47, 47, 0.747);
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 425px) {
+    .navbar li {
+        display: flex;
+    }
 }
 
 .appName a {

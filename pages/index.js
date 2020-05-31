@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Index() {
   return (
-    <div>
+    <div id="fullBody">
       <Header />
       <Menu />
       <Footer />

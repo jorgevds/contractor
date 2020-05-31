@@ -7,13 +7,19 @@ html, body {
     font-family: "Roboto";
     background-image: url("/images/backdrop.jpg");
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 * {
     box-sizing: border-box;
+}
+
+#fullBody {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -24,11 +30,11 @@ a {
 /* shared styling for navbar elements in header and footer components */
 
 nav {
-    box-sizing: border-box;
     top: 0;
     left: 0;
     margin: 0!;
     display: flex;
+    width: 100%;
 }
 
 nav ul {

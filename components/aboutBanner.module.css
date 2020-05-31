@@ -1,0 +1,32 @@
+.container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: rgba(48, 47, 47, 0.747);
+    border: 2px solid #2d79ab;
+    flex: 1;
+}
+
+.container h1 {
+    color: #2d79ab;
+    font-size: 2rem;
+}
+
+.header {
+    margin: auto;
+    color: silver;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.description, .descriptionTwo {
+    text-indent: 10px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 50px 0;
+}
+
+.descriptionTwo {
+    text-align: right;
+}
