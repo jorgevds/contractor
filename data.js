@@ -1,6 +1,6 @@
 export const profiles = [
   {
-    id: "3",
+    id: "1",
     img: "/images/bouw1.jpg",
     name: "Mariah Carey",
     price: "172 euro per dag",
@@ -8,7 +8,7 @@ export const profiles = [
     occupation: "Bouwvakker",
   },
   {
-    id: "4",
+    id: "2",
     img: "/images/bouw2.jpg",
     name: "Giovanni",
     price: "167 euro per dag",
@@ -16,7 +16,7 @@ export const profiles = [
     occupation: "Bouwvakker",
   },
   {
-    id: "5",
+    id: "3",
     img: "/images/bouw3.jpg",
     name: "Fabio",
     price: "196 euro per dag",
@@ -25,7 +25,7 @@ export const profiles = [
   },
   ,
   {
-    id: "6",
+    id: "4",
     img: "/images/elek1.jpg",
     name: "Delilah",
     price: "172 euro per dag",
@@ -33,7 +33,7 @@ export const profiles = [
     occupation: "Elektricien",
   },
   {
-    id: "7",
+    id: "5",
     img: "/images/elek2.jpg",
     name: "Design Team",
     price: "167 euro per dag",
@@ -41,7 +41,7 @@ export const profiles = [
     occupation: "Elektricien",
   },
   {
-    id: "8",
+    id: "6",
     img: "/images/elek3.jpg",
     name: "Palpatine Electric",
     price: "500 euro per dag",
@@ -49,7 +49,7 @@ export const profiles = [
     occupation: "Elektricien",
   },
   {
-    id: "9",
+    id: "7",
     img: "/images/schilder1.jpg",
     name: "Amidala",
     price: "50 euro per dag",
@@ -57,7 +57,7 @@ export const profiles = [
     occupation: "Schilder",
   },
   {
-    id: "10",
+    id: "8",
     img: "/images/schilder2.jpg",
     name: "C-3PaintO",
     price: "143 euro per dag",
@@ -65,7 +65,7 @@ export const profiles = [
     occupation: "Schilder",
   },
   {
-    id: "11",
+    id: "9",
     img: "/images/schilder3.jpg",
     name: "Maria",
     price: "250 euro per dag",
@@ -73,7 +73,7 @@ export const profiles = [
     occupation: "Schilder",
   },
   {
-    id: "1",
+    id: "10",
     img: "/images/verhuis3.jpg",
     name: "Rey Skywalker",
     price: "122 euro per dag",
@@ -81,7 +81,7 @@ export const profiles = [
     occupation: "Verhuizer",
   },
   {
-    id: "2",
+    id: "11",
     img: "/images/verhuis1.jpg",
     name: "Han Solo",
     price: "200 euro per dag",
@@ -89,7 +89,7 @@ export const profiles = [
     occupation: "Verhuizer",
   },
   {
-    id: "3",
+    id: "12",
     img: "/images/verhuis2.jpg",
     name: "Galactic Empire",
     price: "499 euro per dag",
@@ -97,7 +97,7 @@ export const profiles = [
     occupation: "Verhuizer",
   },
   {
-    id: "12",
+    id: "13",
     img: "/images/tuin1.jpg",
     name: "Marie Curie",
     price: "172 euro per dag",
@@ -105,7 +105,7 @@ export const profiles = [
     occupation: "Tuinier",
   },
   {
-    id: "13",
+    id: "14",
     img: "/images/tuin2.jpg",
     name: "R2-D2",
     price: "200 euro per dag",
@@ -113,7 +113,7 @@ export const profiles = [
     occupation: "Tuinier",
   },
   {
-    id: "14",
+    id: "15",
     img: "/images/tuin3.jpg",
     name: "Gaia",
     price: "96 euro per dag",
