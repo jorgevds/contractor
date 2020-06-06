@@ -8,7 +8,6 @@ const Card = ({ selectedOccupation }) => {
   );
 
   if (!filteredProfiles.length) return null;
-
   return filteredProfiles.map((profile) => (
     <div key={profile.id} className={styles.layout}>
       <div className={styles.grid}>
@@ -17,7 +16,7 @@ const Card = ({ selectedOccupation }) => {
         <div>{profile.price}</div>
         <div>{profile.worktime}</div>
         <Link href="/people/[id]" as={`/people/${profile.id}`}>
-          <button>Lees meer</button>
+          <button className={styles.profileLink}>Lees meer</button>
         </Link>
       </div>
     </div>

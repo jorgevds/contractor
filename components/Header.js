@@ -6,7 +6,7 @@ const Header = () => {
     <nav className={styles.navbar}>
       <ul>
         <li className={styles.appName}>
-          <Link href="/index">
+          <Link href="/">
             <a>Contractor</a>
           </Link>
         </li>

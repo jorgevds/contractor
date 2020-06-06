@@ -1,9 +1,13 @@
+import Header from "../../components/Header";
 import ProfilePage from "../../components/ProfilePage";
+import Footer from "../../components/Footer";
 
 const Post = () => {
   return (
-    <div>
+    <div id="fullBody">
+      <Header />
       <ProfilePage />
+      <Footer />
     </div>
   );
 };

@@ -11,10 +11,6 @@ html, body {
     background-size: cover;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 #fullBody {
     min-height: 100vh;
     height: auto;
