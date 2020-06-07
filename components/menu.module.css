@@ -27,6 +27,7 @@
     width: 60%;
     font: 300 1.5rem Helvetica, sans-serif;
     display: block;
+    text-transform: capitalize;
     background: whitesmoke;
     border: none;
     outline: 2px solid #2d79ab;

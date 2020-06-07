@@ -11,6 +11,7 @@ export default class Contact extends React.Component {
     return (
       <div className={styles.container}>
         <h1>Contact</h1>
+        <h3>Hier komt nog een contactformulier</h3>
       </div>
     );
   }

@@ -63,8 +63,14 @@
     grid-column: 1/1;
 }
 
+.profileName {
+    padding-top: 20px;
+    color: #2d79ab;
+}
+
 .profileOccupation {
     font-size: 1rem;
+    text-transform: capitalize;
 }
 
 .profileImage {
@@ -82,11 +88,10 @@
     grid-column: 3/3;
 }
 
-/* figure out how to add in descriptions, maybe via markdown? */
-
-/* .profileDescription {
-    text-indent: 10px;
+.profileCaption {
+    line-height: 3rem;
     color: whitesmoke;
-    font-size: 1.5rem;
-    margin: 50px 0;
-} */
+    font-size: 1.2rem;
+    padding: 6rem 4rem;
+    grid-column: 1/3;
+}

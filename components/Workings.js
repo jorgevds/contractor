@@ -1,14 +1,18 @@
 import styles from "./workings.module.css";
+import Link from "next/link";
 
 const Workings = () => {
   return (
     <div className={styles.container}>
       <h1>Hoe werkt het</h1>
       <h3>Als stielmens</h3>
-      <p>Contractor is altijd op zoek naar meer talent! </p>
+      <p>Contractor™ is altijd op zoek naar meer talent! </p>
       <p>
-        Op zoek naar meer clienteel? Geef ons een seintje op
-        business@contractor.be! Ons team biedt u zo snel mogelijk antwoord.
+        Op zoek naar meer clienteel? Geef ons een seintje op{" "}
+        <a href="mailto:business@contractor.be?subject=Aanvraag business">
+          business@contractor.be
+        </a>
+        ! Ons team biedt u zo snel mogelijk antwoord.
       </p>
       <p>
         Alvorens het eerste contact, geef je ons best een aantal gegevens over
@@ -25,7 +29,13 @@ const Workings = () => {
         schattingen, en geven een beeld van de prijs en tijdsduur die gewoonlijk
         zijn voor je business.
       </p>
-      <p>Waar wacht je nog op? Onze DMs zijn open!</p>
+      <p>
+        Waar wacht je nog op?{" "}
+        <Link href="/contact">
+          <a>Onze DMs</a>
+        </Link>{" "}
+        zijn open!
+      </p>
       <h3>Als klant</h3>
       <p>Op zoek naar een stielmens? Dan ben je bij ons op de juiste plaats!</p>
       <p>

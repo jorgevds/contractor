@@ -1,7 +1,7 @@
 export const occupations = [
-  { key: 1, value: "Bouwvakker" },
-  { key: 2, value: "Elektricien" },
-  { key: 3, value: "Verhuizer" },
-  { key: 4, value: "Schilder" },
-  { key: 5, value: "Tuinier" },
+  { key: 1, value: "bouwvakker" },
+  { key: 2, value: "elektricien" },
+  { key: 3, value: "verhuizer" },
+  { key: 4, value: "schilder" },
+  { key: 5, value: "tuinier" },
 ];

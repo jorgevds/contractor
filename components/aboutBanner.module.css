@@ -33,13 +33,10 @@
     font-style: italic;
 }
 
-.description, .descriptionTwo {
+.description {
     text-indent: 15px;
     color: whitesmoke;
     font-size: 1rem;
     margin: 50px 0;
-}
-
-.descriptionTwo {
-    text-align: right;
+    line-height: 2rem;
 }

@@ -1,4 +1,5 @@
 import styles from "./aboutBanner.module.css";
+import Link from "next/link";
 
 const AboutBanner = () => {
   return (
@@ -12,15 +13,24 @@ const AboutBanner = () => {
           Het is een webplatform voor bedrijven en freelancers om hun diensten
           aan te bieden, en voor u om de juiste match voor de job te vinden.
         </p>
-        <p className={styles.description}>Hier een paar lorem ipsums:</p>
+        <h3 className={styles.header}>Onze missie</h3>
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          auctor metus eu ipsum vestibulum sagittis. Morbi auctor eu metus ac.
+          Werken starten hoeft niet zo een moeilijk en formeel proces te zijn.
+          Daarom sloegen wij, het{" "}
+          <Link href="/team">
+            <a>team</a>
+          </Link>{" "}
+          bij Contractor™, onze handen in elkaar en gingen wij aan het werk.
         </p>
-        <p className={styles.descriptionTwo}>Deze zijn rechts uitgelijnd</p>
-        <p className={styles.descriptionTwo}>
-          Quisque et lorem porta, auctor elit in, maximus elit. Nam eu odio ac
-          ante eleifend dictum pellentesque at ligula. Aenean.
+        <p className={styles.description}>
+          Wij hopen traag maar zeker de kloof tussen business en klant te
+          dichten, met kwaliteit en een vlotte transactie in het oog.
+        </p>
+        <h3 className={styles.header}>Weg met de formaliteit</h3>
+        <p className={styles.description}>
+          Nooit meer vol spanning een vraag voor een offerte insturen. Gedaan
+          met lange, saaie meetings waar je je toch nooit zeker voelt. Een
+          vlotte, snelle en kwaliteitsvolle samenwerking is de leidraad!
         </p>
       </div>
     </div>

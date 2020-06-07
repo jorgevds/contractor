@@ -10,7 +10,7 @@
     grid-template-columns: 1fr;
 }
 
-.container h1, .container h3, .container img, .container h4 {
+.container h1, .container h3, .container p, .container img, .container h4 {
     animation: fadein .7s;
 }
 
@@ -29,20 +29,31 @@
 }
 
 .container h3 {
-    color: silver;
-    line-height: 50px;
+    color: #aaa9a9;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.container p {
+    color: #e0dcdc;
+    font-size: 1rem;
+    text-indent: 15px;
+    line-height: 2rem;
+    margin: 25px 0;
 }
 
 .container h4 {
     margin: auto;
-    padding-top: 20px;
-    color: silver;
+    padding-bottom: 20px;
+    color: #e0dcdc;
 }
 
 .container img {
     width: 100%;
     height: auto;
     margin: auto;
+    padding: 20px 0;
+    filter: brightness(80%)
 }
 
 .contactLink:hover {

@@ -15,9 +15,21 @@ const ProfilePage = () => {
     <div key={profile.id} className={styles.container}>
       <h3 className={styles.profileName}>{profile.name}</h3>
       <h3 className={styles.profileOccupation}>{profile.occupation}</h3>
+      <div className={styles.profileCaption}>
+        <h3>
+          {profile.name}
+          {profile.captionOne}
+          {profile.occupation}.
+        </h3>
+        <h3>
+          {profile.captionTwo}
+          {profile.location}.
+        </h3>
+      </div>
       <img src={profile.img} className={styles.profileImage} />
       <h3 className={styles.profileRate}>{profile.price}</h3>
       <h3 className={styles.profileTime}>{profile.worktime}</h3>
+
       <Link href="/">
         <a className={styles.backButton}>Terug naar hoofdmenu</a>
       </Link>
