@@ -10,16 +10,14 @@ const ProfilePage = () => {
   );
 
   if (!filteredProfiles.length) return null;
-  console.log(router.query);
-  console.log(router);
 
   return filteredProfiles.map((profile) => (
     <div key={profile.id} className={styles.container}>
-      <div className={styles.profileName}>{profile.name}</div>
-      <div className={styles.profileOccupation}>{profile.occupation}</div>
+      <h3 className={styles.profileName}>{profile.name}</h3>
+      <h3 className={styles.profileOccupation}>{profile.occupation}</h3>
       <img src={profile.img} className={styles.profileImage} />
-      <div className={styles.profileRate}>{profile.price}</div>
-      <div className={styles.profileTime}>{profile.worktime}</div>
+      <h3 className={styles.profileRate}>{profile.price}</h3>
+      <h3 className={styles.profileTime}>{profile.worktime}</h3>
       <Link href="/">
         <a className={styles.backButton}>Terug naar hoofdmenu</a>
       </Link>

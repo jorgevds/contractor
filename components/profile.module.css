@@ -28,10 +28,32 @@
     }
 }
 
+.container h1, .container h3, .container img, .container a {
+    animation: fadein .7s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container h3 {
+    margin: 0;
+}
+
 .backButton {
     margin: auto;
     padding: 20px 0;
     grid-column: 2/2;
+}
+
+.backButton:hover {
+    color: #2d79ab;
+    transition: .3s;
 }
 
 .profileName, .profileOccupation {

@@ -5,6 +5,20 @@
     margin: 0 30px 40px;
     border: 2px solid #2d79ab;
     transition: .3s;
+    animation: fadein .7s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.layout h3 {
+    margin: 0;
 }
 
 @media screen and (max-width: 320px) {
@@ -40,6 +54,13 @@
     letter-spacing: .5px;
     font: 600 1.2rem Arial, sans-serif;
     padding: 20px 0;
+    color: #2d79ab;
+    padding-bottom: 2.3rem;
+}
+
+.price, .worktime {
+    font-weight: 200;
+    color: #2d79ab;
 }
 
 .profileLink {

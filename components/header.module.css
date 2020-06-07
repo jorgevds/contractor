@@ -1,10 +1,5 @@
-@media screen and (max-width: 425px) {
-    .navbar ul {
-        padding: 0;
-    }
-    .navbar li {
-        padding: 20px 35px;
-    }
+.navbar li {
+    padding: 1.5rem;
 }
 
 .appName a {
@@ -15,4 +10,25 @@
 
 .appName a:hover {
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar li {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar ul {
+        padding: 0;
+    }
+    .navbar li {
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar li {
+        padding: 20px;
+    }
 }

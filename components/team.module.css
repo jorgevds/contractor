@@ -6,9 +6,11 @@
     background-color: rgba(48, 47, 47, 0.747);
     border: 2px solid #2d79ab;
     flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.container h1, .container h3, .container p {
+.container h1, .container h3, .container img, .container h4 {
     animation: fadein .7s;
 }
 
@@ -28,15 +30,22 @@
 
 .container h3 {
     color: silver;
-    margin: auto;
-    font-size: 1.3rem;
-    font-style: italic;
+    line-height: 50px;
 }
 
-.container p {
-    text-indent: 15px;
-    line-height: 2rem;
-    color: whitesmoke;
-    font-size: 1rem;
-    margin: 50px 0;
+.container h4 {
+    margin: auto;
+    padding-top: 20px;
+    color: silver;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.contactLink:hover {
+    color: #2d79ab;
+    transition: .3s;
 }
