@@ -16,12 +16,17 @@
     font-style: italic;
 }
 
-.appName a:hover {
-    text-decoration: none;
-}
-
 .legalDisclaimer {
     color: silver;
     font: 200 .8rem Times, serif;
     padding-bottom: 0;
+}
+
+@media screen and (min-width: 1500px) {
+    .appName a {
+        font-size: 2rem;
+    }
+    .legalDisclaimer {
+        font-size: 1.2rem;
+    }
 }

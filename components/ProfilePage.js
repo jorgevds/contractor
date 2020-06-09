@@ -29,6 +29,11 @@ const ProfilePage = () => {
       <img src={profile.img} className={styles.profileImage} />
       <h3 className={styles.profileRate}>{profile.price}</h3>
       <h3 className={styles.profileTime}>{profile.worktime}</h3>
+      <h3 className={styles.match}>
+        <a href={`mailto:${profile.email}${profile.occupation}@contractor.be`}>
+          Dit is mijn match!
+        </a>
+      </h3>
 
       <Link href="/">
         <a className={styles.backButton}>Terug naar hoofdmenu</a>

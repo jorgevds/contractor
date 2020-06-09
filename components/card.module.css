@@ -33,13 +33,10 @@
     }
 }
 
-.layout:hover {
-    transform: translate(0, -3vh);
-}
-
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 200px;
+    min-height: 75vh;
     padding: 20px 10px;
 }
 
@@ -53,14 +50,17 @@
 .name {
     letter-spacing: .5px;
     font: 600 1.2rem Arial, sans-serif;
-    padding: 20px 0;
     color: #2d79ab;
+    padding: 20px 0;
     padding-bottom: 2.3rem;
+    font-style: normal;
 }
 
 .price, .worktime {
     font-weight: 200;
     color: #2d79ab;
+    font-style: normal;
+    font-size: 1.1rem;
 }
 
 .profileLink {
@@ -72,15 +72,42 @@
     border: 1px solid #2d79ab;
 }
 
-.profileLink:hover {
-    background-color: #2d79ab;
-    color: whitesmoke;
-    transition: .3s;
+@media screen and (min-width: 900px) {
+    .layout:hover {
+        transform: translate(0, -3vh);
+    }
+    .profileLink:hover {
+        background-color: #2d79ab;
+        color: whitesmoke;
+        transition: .3s;
+    }
+    .grid:hover .profileLink {
+        transform: scale(1);
+        padding: 5px;
+        margin-top: 20px;
+        transition: .3s;
+    }
 }
 
-.grid:hover .profileLink {
-    transform: scale(1);
-    padding: 5px;
-    margin-top: 20px;
-    transition: .3s;
+@media screen and (max-width: 425px) {
+    .grid {
+        grid-template-columns: 150px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profileLink {
+        transform: scale(1);
+        margin-top: 25px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .name, .price, .worktime, .profileLink {
+        font-size: 2rem;
+    }
 }

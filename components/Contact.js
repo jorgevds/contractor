@@ -1,18 +1,18 @@
+import Form from "./Form";
 import styles from "./contact.module.css";
 
-export default class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loggedIn: "",
-    };
-  }
-  render() {
-    return (
-      <div className={styles.container}>
-        <h1>Contact</h1>
-        <h3>Hier komt nog een contactformulier</h3>
-      </div>
-    );
-  }
-}
+const Contact = () => {
+  return (
+    <div className={styles.container}>
+      <h1>Contact</h1>
+      <h3>Vragen voor het team?</h3>
+      <p>
+        Vul hieronder je gegevens in en laat een boodschap achter. Het
+        Contractor™ team volgt zo snel mogelijk met je op!
+      </p>
+      <Form />
+    </div>
+  );
+};
+
+export default Contact;

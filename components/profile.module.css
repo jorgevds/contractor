@@ -12,22 +12,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 425px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    .backButton, .profileName, .profileOccupation, .profileOccupation, .profileRate, .profileTime {
-        margin: auto;
-    }
-    .profileOccupation {
-        padding-bottom: 15px;
-    }
-    .profileRate {
-        margin-top: 15px;
-    }
-}
-
 .container h1, .container h3, .container img, .container a {
     animation: fadein .7s;
 }
@@ -45,32 +29,57 @@
     margin: 0;
 }
 
-.backButton {
-    margin: auto;
-    padding: 20px 0;
-    grid-column: 2/2;
-}
-
-.backButton:hover {
-    color: #2d79ab;
-    transition: .3s;
-}
-
 .profileName, .profileOccupation {
-    color: silver;
-    font-size: 1.8rem;
     font-style: italic;
     grid-column: 1/1;
 }
 
 .profileName {
+    font-size: 1.8rem;
     padding-top: 20px;
     color: #2d79ab;
 }
 
 .profileOccupation {
+    color: silver;
     font-size: 1rem;
     text-transform: capitalize;
+}
+
+.profileCaption, .match {
+    line-height: 3rem;
+    padding: 6rem 4rem;
+    grid-column: 1/3;
+}
+
+.profileCaption h3 {
+    color: whitesmoke;
+    font-style: normal;
+}
+
+.match {
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 3rem 4rem;
+}
+
+.match a {
+    background: #2c2b2b;
+    border: 1px solid #2d79ab;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .match a:hover {
+        background-color: #2d79ab;
+        transition: .5s;
+    }
+    .backButton:hover {
+        color: #2d79ab;
+        transition: .3s;
+    }
 }
 
 .profileImage {
@@ -86,12 +95,62 @@
     color: #2d79ab;
     font-size: 1.3rem;
     grid-column: 3/3;
+    font-style: normal;
 }
 
-.profileCaption {
-    line-height: 3rem;
-    color: whitesmoke;
-    font-size: 1.2rem;
-    padding: 6rem 4rem;
-    grid-column: 1/3;
+.backButton {
+    margin: auto;
+    padding: 20px 0;
+    grid-column: 2/2;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .backButton, .profileName, .profileOccupation, .profileOccupation, .profileRate, .profileTime {
+        margin: auto;
+    }
+    .profileOccupation {
+        padding-bottom: 15px;
+    }
+    .profileCaption, .match {
+        padding: 0;
+        line-height: 2.5rem;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .match {
+        padding: 1rem 0;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .profileRate, .profileTime {
+        text-align: center;
+    }
+    .profileRate {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .profileName {
+        font-size: 2.5rem;
+    }
+    .profileCaption h3 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .profileRate, .profileTime, .profileOccupation {
+        font-size: 2rem;
+    }
+    .match {
+        font-size: 3rem;
+        padding: 6rem
+    }
+    .backButton {
+        font-size: 1.5rem;
+    }
 }

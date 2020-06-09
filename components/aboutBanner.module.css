@@ -20,23 +20,3 @@
         opacity: 1;
     }
 }
-
-.container h1 {
-    color: #2d79ab;
-    font-size: 2rem;
-}
-
-.header {
-    margin: auto;
-    color: silver;
-    font-size: 1.3rem;
-    font-style: italic;
-}
-
-.description {
-    text-indent: 15px;
-    color: whitesmoke;
-    font-size: 1rem;
-    margin: 50px 0;
-    line-height: 2rem;
-}

@@ -17,20 +17,16 @@ const Team = () => {
       />
       <h4>Ons team hier bij Contractor</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada in
-        dui et facilisis. Curabitur ultrices tincidunt pretium. Fusce facilisis
-        neque sed consequat faucibus. Vestibulum dignissim viverra metus, vitae
-        interdum enim facilisis at. Aenean sagittis tortor nulla, laoreet
-        scelerisque nisl tristique sit amet. Phasellus volutpat, leo a egestas
-        efficitur, leo.
+        Uw werk is onze garantie. Wij garanderen een kwalitatieve werkzaamheid
+        door onze kandidaten aandachtig te filteren. Nog voor uw moeite om een
+        match te vinden, hebben wij de moeite gedaan om uw match te verzekeren.
+        Daarom bieden wij enkel de beste bedrijven en freelancers aan om
+        potentiële match te zijn!
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada in
-        dui et facilisis. Curabitur ultrices tincidunt pretium. Fusce facilisis
-        neque sed consequat faucibus. Vestibulum dignissim viverra metus, vitae
-        interdum enim facilisis at. Aenean sagittis tortor nulla, laoreet
-        scelerisque nisl tristique sit amet. Phasellus volutpat, leo a egestas
-        efficitur, leo.
+        Wij blijven voor u paraat staan. Ons doel is om werk gedaan te krijgen,
+        en dit proces te versoepelen. Daarom werken wij met de de laatste nieuwe
+        technologiën en een <em>can do attitude</em> om dit te verwezenlijken.
       </p>
       <h3>
         Heeft u vragen of opmerkingen voor ons? Neem gerust{" "}

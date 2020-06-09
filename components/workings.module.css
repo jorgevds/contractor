@@ -21,27 +21,17 @@
     }
 }
 
-.container h1 {
-    color: #2d79ab;
-    font-size: 2rem;
-}
-
 .container h3 {
-    color: #aaa9a9;
     margin: auto;
-    font-size: 1.3rem;
-    font-style: italic;
 }
 
 .container p {
-    text-indent: 15px;
-    line-height: 2rem;
-    color: #e0dcdc;
-    font-size: 1rem;
     margin: 50px 0;
 }
 
-.container a:hover {
-    color: #2d79ab;
-    transition: .3s;
+@media screen and (min-width: 900px) {
+    .container a:hover {
+        color: #2d79ab;
+        transition: .3s;
+    }
 }

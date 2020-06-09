@@ -23,18 +23,11 @@
     }
 }
 
-.container h1 {
-    color: #2d79ab;
-    font-size: 2rem;
-}
-
 .container h3 {
-    color: silver;
     line-height: 50px;
 }
 
-.container h4 {
-    margin: auto;
-    padding-top: 20px;
-    color: silver;
+.container p {
+    text-indent: 0;
+    margin: 25px 0;
 }
