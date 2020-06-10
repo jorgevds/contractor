@@ -30,6 +30,7 @@
 @media screen and (max-width: 768px) {
     .layout {
         margin: 0 10px 40px;
+        padding: 0;
     }
 }
 
@@ -89,12 +90,6 @@
     }
 }
 
-@media screen and (max-width: 425px) {
-    .grid {
-        grid-template-columns: 150px;
-    }
-}
-
 @media screen and (max-width: 900px) {
     .profileLink {
         transform: scale(1);
@@ -104,6 +99,9 @@
 }
 
 @media screen and (min-width: 1500px) {
+    .layout {
+        margin: 0 60px 60px;
+    }
     .grid {
         grid-template-columns: 1fr;
     }
