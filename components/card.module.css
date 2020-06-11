@@ -43,8 +43,8 @@
 
 .img {
     margin: auto;
-    height: 40vh;
-    width: auto;
+    height: auto;
+    width: 100%;
     border: 1px solid rgb(153, 152, 152);
 }
 
@@ -91,6 +91,9 @@
 }
 
 @media screen and (max-width: 900px) {
+    .grid {
+        max-height: 150vh;
+    }
     .profileLink {
         transform: scale(1);
         margin-top: 25px;
@@ -104,6 +107,10 @@
     }
     .grid {
         grid-template-columns: 1fr;
+    }
+    .img {
+        height: 40vh;
+        width: auto;
     }
     .name, .price, .worktime, .profileLink {
         font-size: 2rem;
