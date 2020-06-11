@@ -1,13 +1,10 @@
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 import Team from "../components/Team";
-import Footer from "../components/Footer";
 
 export default function TeamPage() {
   return (
-    <div id="fullBody">
-      <Header />
+    <Layout title="Contractor: het team">
       <Team />
-      <Footer />
-    </div>
+    </Layout>
   );
 }

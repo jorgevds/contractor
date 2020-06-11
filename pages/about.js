@@ -1,13 +1,10 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 import AboutBanner from "../components/AboutBanner";
 
 export default function About() {
   return (
-    <div id="fullBody">
-      <Header />
+    <Layout title="Contractor: over ons">
       <AboutBanner />
-      <Footer />
-    </div>
+    </Layout>
   );
 }

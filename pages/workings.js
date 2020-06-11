@@ -1,13 +1,10 @@
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 import Workings from "../components/Workings";
-import Footer from "../components/Footer";
 
 export default function WorkingsPage() {
   return (
-    <div id="fullBody">
-      <Header />
+    <Layout title="Contractor: hoe het werkt">
       <Workings />
-      <Footer />
-    </div>
+    </Layout>
   );
 }

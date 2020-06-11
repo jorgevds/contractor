@@ -1,13 +1,10 @@
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 import Menu from "../components/Menu";
-import Footer from "../components/Footer";
 
 export default function Index() {
   return (
-    <div id="fullBody">
-      <Header />
+    <Layout>
       <Menu />
-      <Footer />
-    </div>
+    </Layout>
   );
 }

@@ -1,13 +1,10 @@
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 
 export default function ContactPage() {
   return (
-    <div id="fullBody">
-      <Header />
+    <Layout title="Contractor: contacteer ons">
       <Contact />
-      <Footer />
-    </div>
+    </Layout>
   );
 }

@@ -1,14 +1,11 @@
-import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 import ProfilePage from "../../components/ProfilePage";
-import Footer from "../../components/Footer";
 
 const Post = () => {
   return (
-    <div id="fullBody">
-      <Header />
+    <Layout title="Contractor: profielpagina">
       <ProfilePage />
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 
