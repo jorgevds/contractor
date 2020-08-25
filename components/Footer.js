@@ -4,8 +4,8 @@ import styles from "./footer.module.css";
 const Footer = () => {
   return (
     <nav className={styles.navbar}>
-      <ul>
-        <div>
+      <div>
+        <ul>
           <li className={styles.appName}>
             <Link href="/index">
               <a>Contractor</a>
@@ -31,13 +31,15 @@ const Footer = () => {
               <a>Contact</a>
             </Link>
           </li>
-        </div>
+        </ul>
         <div>
-          <li className={styles.legalDisclaimer}>
-            Copyright © 2020. All rights reserved.
-          </li>
+          <ul>
+            <li className={styles.legalDisclaimer}>
+              Copyright © 2020. All rights reserved.
+            </li>
+          </ul>
         </div>
-      </ul>
+      </div>
     </nav>
   );
 };

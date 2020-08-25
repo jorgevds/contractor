@@ -37,6 +37,7 @@
 .grid {
     display: grid;
     grid-template-columns: 200px;
+    /* grid-auto-rows: .3fr; */
     min-height: 75vh;
     padding: 20px 10px;
 }
@@ -49,6 +50,7 @@
 }
 
 .name {
+    flex: 1 1 auto;
     letter-spacing: .5px;
     font: 600 1.2rem Arial, sans-serif;
     color: #2d79ab;

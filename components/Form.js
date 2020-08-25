@@ -5,11 +5,11 @@ export default class Form extends React.Component {
     super(props);
     this.state = {
       form: "",
-      firstName: "",
-      lastName: "",
+      voornaam: "",
+      achternaam: "",
       email: "",
       bericht: "",
-      title: "klant",
+      titel: "klant",
       submit: false,
     };
   }
@@ -31,8 +31,11 @@ export default class Form extends React.Component {
       <div>
         <form onSubmit={this.handleSubmit} className={styles.container}>
           <div>
+            <label for="titel" className={styles.label}>
+              Titel
+            </label>
             <select
-              name="title"
+              name="titel"
               required
               value={this.state.title}
               onChange={this.handleChange}
@@ -44,20 +47,29 @@ export default class Form extends React.Component {
               <option>Andere</option>
             </select>
           </div>
+          <label for="voornaam" className={styles.label}>
+            Voornaam
+          </label>
           <input
-            name="firstName"
+            name="voornaam"
             placeholder="voornaam"
             value={this.state.firstName}
             onChange={this.handleChange}
             className={styles.formInput}
           />
+          <label for="achternaam" className={styles.label}>
+            Naam
+          </label>
           <input
-            name="lastName"
+            name="achternaam"
             placeholder="naam"
-            value={this.state.lastName}
+            value={this.state.achternaam}
             onChange={this.handleChange}
             className={styles.formInput}
           />
+          <label for="email" className={styles.label}>
+            Email
+          </label>
           <input
             name="email"
             placeholder="email"
@@ -66,6 +78,9 @@ export default class Form extends React.Component {
             onChange={this.handleChange}
             className={styles.formInput}
           />
+          <label for="bericht" className={styles.label}>
+            Uw bericht
+          </label>
           <textarea
             name="bericht"
             placeholder="hier uw boodschap"

@@ -4,6 +4,15 @@
     padding: 20px 0;
 }
 
+.label {
+    font: 400 .8rem Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin: 15px 10px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 .formSelect, .formInput, .formTextArea, .formSubmit {
     margin: 8px;
     padding: 10px;
@@ -26,7 +35,7 @@
 }
 
 .formTextArea {
-    margin: 20px 8px;
+    margin-bottom: 20px;
     min-height: 200px;
     text-indent: 10px;
     font-size: .9rem;

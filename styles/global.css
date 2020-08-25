@@ -79,6 +79,10 @@ p {
     margin: 50px 0;
 }
 
+label {
+    margin: 40px 0;
+}
+
 @media screen and (max-width: 425px) {
     p {
         text-indent: 0;

@@ -4,7 +4,7 @@
 
 .appName a {
     color: silver;
-    font: 500 2rem "Chelsea Market";
+    font: 500 2rem "Chelsea Market", cursive;
     padding-right: 20px;
 }
 
