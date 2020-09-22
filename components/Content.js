@@ -7,13 +7,13 @@ const Content = ({ selectedOccupation }) => {
         <h1 className={styles.header}>
           Welkom in onze databank voor vakmensen
         </h1>
-        <h3 className={styles.description}>
+        <h2 className={styles.description}>
           Kies een beroep uit de lijst om aan de slag te gaan!
-        </h3>
-        <h3 className={styles.description}>
+        </h2>
+        <h2 className={styles.description}>
           Wij halen voor u een aantal vakmensen op die uw opdracht willen
           opnemen
-        </h3>
+        </h2>
       </div>
     );
   } else {
