@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1>Contact</h1>
       <h3>Vragen voor het team?</h3>
       <p>
@@ -11,7 +11,7 @@ const Contact = () => {
         Contractor™ team volgt zo snel mogelijk met je op!
       </p>
       <Form />
-    </div>
+    </section>
   );
 };
 

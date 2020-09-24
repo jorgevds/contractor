@@ -12,7 +12,7 @@ const ProfilePage = () => {
   if (!filteredProfiles.length) return null;
 
   return filteredProfiles.map((profile) => (
-    <div key={profile.id} className={styles.container}>
+    <section key={profile.id} className={styles.container}>
       <h3 className={styles.profileName}>{profile.name}</h3>
       <h3 className={styles.profileOccupation}>{profile.occupation}</h3>
       <div className={styles.profileCaption}>
@@ -38,7 +38,7 @@ const ProfilePage = () => {
       <Link href="/">
         <a className={styles.backButton}>Terug naar hoofdmenu</a>
       </Link>
-    </div>
+    </section>
   ));
 };
 export default ProfilePage;

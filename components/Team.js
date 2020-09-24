@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Team = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1>Ons team</h1>
       <h3>Team, work</h3>
       <p>
@@ -35,7 +35,7 @@ const Team = () => {
         </Link>{" "}
         op!
       </h3>
-    </div>
+    </section>
   );
 };
 

@@ -21,7 +21,7 @@ export default class Menu extends React.Component {
 
   render() {
     return (
-      <div className={styles.selectDiv}>
+      <section className={styles.selectDiv}>
         <label htmlFor="kies-een-beroep" className={styles.selectLabel}>
           Kies een beroep:
         </label>
@@ -52,7 +52,7 @@ export default class Menu extends React.Component {
 
         <Content selectedOccupation={this.state.selectedOccupation} />
         <Card selectedOccupation={this.state.selectedOccupation} />
-      </div>
+      </section>
     );
   }
 }

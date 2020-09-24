@@ -22,11 +22,8 @@ export default function Layout({ children, title = "Contractor" }) {
           content="Contractor: de website voor zaken, freelancers en particulieren!"
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="FB and twitter thumbnail photo (must be URL)"
-        />
-        <meta property="og:url" content="https://bit.ly/2RVU3Wc" />
+        <meta property="og:image" content="https://bit.ly/2RVU3Wc" />
+        <meta property="og:url" content="https://contractor-tau.now.sh/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:image:alt"

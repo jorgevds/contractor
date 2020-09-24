@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const AboutBanner = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1>Over ons</h1>
       <div>
         <h3>Contractor™ is een online bron van stielmensen uit elk beroep</h3>
@@ -31,7 +31,7 @@ const AboutBanner = () => {
           vlotte, snelle en kwaliteitsvolle samenwerking is de leidraad!
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

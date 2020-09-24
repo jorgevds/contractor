@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Workings = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1>Hoe werkt het</h1>
       <h3>Als stielmens</h3>
       <p>Contractor™ is altijd op zoek naar meer talent! </p>
@@ -54,7 +54,7 @@ const Workings = () => {
         notifications zorgen voor wekelijkse updates, en berichten over
         onbeantwoorde emails.
       </p>
-    </div>
+    </section>
   );
 };
 

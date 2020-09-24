@@ -3,8 +3,8 @@ import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <nav className={styles.navbar}>
-      <div>
+    <footer>
+      <nav className={styles.navbar}>
         <ul>
           <li className={styles.appName}>
             <Link href="/index">
@@ -39,8 +39,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </footer>
   );
 };
 
