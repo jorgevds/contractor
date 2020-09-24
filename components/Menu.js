@@ -22,7 +22,7 @@ export default class Menu extends React.Component {
   render() {
     return (
       <div className={styles.selectDiv}>
-        <label for="kies-een-beroep" className={styles.selectLabel}>
+        <label htmlFor="kies-een-beroep" className={styles.selectLabel}>
           Kies een beroep:
         </label>
         <select
